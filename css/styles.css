@@ -1,8 +1,13 @@
+html {
+  height: 100%;
+}
+
 body {
   font-size: 16px;
   color: #fff;
   background-color: white;
   font-family: 'OxygenMono', sans-serif;
+  height: 100%;
 }
 
 /** HEADER **/
@@ -12,19 +17,13 @@ body {
   align-content: center;
 }
 
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
-
 .bottomline {
   border-bottom: 1px solid black;
 }
 
 .navbar-brand {
   padding-top: 25px;
+  margin: 0;
 }
 
 .navbar-brand h1 { /* Website title */
@@ -61,12 +60,56 @@ body {
   color: black;
   font-size: 1em;
   text-transform: uppercase;
+  width: 100%;
 }
 
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
+
+
+/** END HEADER **/
+
+
+/** MEDIA QUERIES **/
+/** ------------------------- Devices w. screen smaller than 768px ---------------------------- **/
+@media (max-device-width: 767px) {
+.main-image {
+/* The image used */
+  background-image: url("../images/Grigna.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  vertical-align: baseline;
+}
+}
+
+/** ------------------------- Devices w. screen larger than 767px ---------------------------- **/
+@media (min-device-width: 768px) {
+.main-image {
+/* The image used */
+  background-image: url("../images/background.jpg");
+
+  /* Full height */
+  width: 100%;
+  min-height: 100%;
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+}
+
+
+
+
+/** END MEDIA QUERIES **/
+
 
 
 
