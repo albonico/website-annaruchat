@@ -4,9 +4,9 @@ html {
 
 body {
   font-size: 16px;
-  color: #fff;
+  color: black;
   background-color: white;
-  font-family: 'OxygenMono', sans-serif;
+  font-family: 'Oxygen Mono', sans-serif;
   height: 100%;
 }
 
@@ -22,7 +22,8 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 20px;
+  padding-bottom: 15px;
   margin: 0;
 }
 
@@ -30,7 +31,7 @@ body {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   color: black;
-  font-size: 1.5em;
+  font-size: 2em;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
@@ -70,6 +71,39 @@ body {
 
 
 /** END HEADER **/
+
+
+/** BIO PAGE **/
+.maintext {
+ color: black;
+}
+
+#bio h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#portrait {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.copyright {
+  color: black;
+  font-size: 0.7em;
+}
+
+#portrait figcaption {
+  text-align: left;
+}
+/** END BIO **/
+
 
 
 /** MEDIA QUERIES **/
