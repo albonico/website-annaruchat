@@ -4,66 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Anna Ruchat</title>
+    <title>Anna Ruchat - Biografia</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
   </head>
 
 <body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default bottomline">
-      <div class="container-fluid justify-content-center">
-        <div class="navbar-header">
-            <div class="navbar-brand">
-              <a href="index.html"><h1>Anna Ruchat</h1></a>
-            </div><!-- .navbar-brand -->
-        </div><!-- .navbar-header -->
-      </div><!-- .container-fluid -->
-    </nav>
-
-    <nav class="navbar navbar-expand-lg navbar-light bottomline">
-      <div class="container-fluid justify-content-center">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-nav">
-    	  <span class="navbar-toggler-icon"></span>
-  		</button>
-        <div id="collapsible-nav" class="collapse navbar-collapse justify-content-center">
-          <ul class="navbar-nav justify-content-center nav-fill menu-list">
-      	    <li class="nav-item">
-		      <a class="nav-link" href="biografia.html">Biografia</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Libri</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Traduzioni</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Da tradurre</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Documentari</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Rubrica</a>
-		    </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">fondazione f. beltrametti</a>
-        </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="#">Contatti</a>
-		    </li>
-    	  </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container-fluid -->
-    </nav>
+  <header id="header">
   </header>
 
-
-
-
-<div id="bio" class="container-fluid">
+  <div class="container-fluid maindiv">
     <h2 class="text-center">Biografia</h2>
     <section class="row">
       <div id="portrait" class="col-lg-3 col-xxs-12 text-center">
@@ -87,7 +46,6 @@
         <img src="https://via.placeholder.com/200x800" class="img-fluid">
       </div>
     </section>
-
   </div><!-- End of #main-content -->
 
 
@@ -96,7 +54,7 @@
   <div class="main-image">  </div>-->
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-3.5.1.js"></script>
+  <!--<script src="js/jquery-3.5.1.js"></script> TO DO -- JQUERY MOVED TO THE TOP: SHOULD BE IN BODY?-->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
