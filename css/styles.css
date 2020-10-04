@@ -10,6 +10,12 @@ body {
   height: 100%;
 }
 
+.maiuscolo {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;  
+}
+
 /** ----------------------------------------------- HEADER ----------------------------------------------------------**/
 #header-nav {
   background-color: white;
@@ -136,8 +142,46 @@ body {
   text-align: center;
 }
 
-.carousel-item {
-  border: black solid;
+.carousel-item .row {
+  max-width: 80%;
+}
+
+.carousel-indicators {
+  margin-bottom: -5vh;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+.carousel-indicators .active {
+    background-color: grey;
+}
+
+.copertina {
+  max-height: 50vh;
+}
+
+.bookdata {
+  padding-top: 80px;
+  padding-left: 50px;
+  font-size: 1.5em;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+.titolo {
+  text-transform: none;
+  font-style: italic;
+}
+
+.edizione {
+  font-size: 0.8em;
+}
+
+.lista-traduzioni {
+  margin-top: 10vh;
 }
 
 /** ------------------------------------------------ END TRADUZIONI ------------------------------------------------------------------- **/
