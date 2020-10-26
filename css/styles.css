@@ -164,7 +164,7 @@ body {
 }
 
 .copertina {
-  max-height: 50vh;
+  max-height: 50vmax;
 }
 
 .bookdata {
@@ -197,6 +197,22 @@ body {
 #carouselLibriIndicators {
   margin-top: 10vh;
   margin-bottom: 10vh;
+}
+
+.citazione{
+  margin-left: 22vmin;
+  margin-right: 22vmin;
+}
+
+.cit-testo{
+  font-style: italic;
+  text-align: center;
+}
+
+.cit-autore{
+  text-align: right;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 /** ------------------------------------------------ END LIBRI ------------------------------------------------------------------- **/
