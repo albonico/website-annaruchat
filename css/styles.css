@@ -160,7 +160,7 @@ body {
     background-color: black;
 }
 .carousel-indicators .active {
-    background-color: grey;
+    background-color: black;
 }
 
 .copertina {
@@ -172,18 +172,35 @@ body {
   padding-left: 50px;
   font-size: 1.5em;
   text-align: left;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Amatic SC';
   font-weight: 300;
 }
 
 .titolo {
   text-transform: none;
-  font-style: italic;
+  font-size:1.2em;
+  text-transform: uppercase;
+}
+
+.testo {
+  font-family: 'Oxygen Mono', sans-serif;
+  font-size: 0.6em;
+}
+
+.ISBN {
+  font-size: 0.8em;
+  text-transform: uppercase;
 }
 
 .edizione {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-bottom: 10vh;
+}
+
+.premio {
   font-size: 0.8em;
+  font-weight: 800;
 }
 
 .lista-traduzioni {
@@ -212,7 +229,7 @@ body {
 .cit-autore{
   text-align: right;
   font-weight: 400;
-  text-transform: uppercase;
+  font-size: 0.9em;
 }
 
 /** ------------------------------------------------ END LIBRI ------------------------------------------------------------------- **/
