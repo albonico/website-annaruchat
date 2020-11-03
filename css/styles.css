@@ -17,6 +17,15 @@ body {
   margin-bottom: 5vh;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
 /** ----------------------------------------------- HEADER ----------------------------------------------------------**/
 #header-nav {
   background-color: white;
@@ -78,6 +87,12 @@ body {
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+  font-weight: 300;
+}
+
+.navbar a:hover, .navbar a:focus {
+  text-decoration: none;
+  font-weight: 300;
 }
 
 .navbar-toggler {
@@ -133,6 +148,25 @@ body {
 }
 /** ------------------------------------------------ END BIO ------------------------------------------------------------------- **/
 
+/** ------------------------------------------------ FOOTER ------------------------------------------------------------------**/
+#footer {
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-weight: 300;
+}
+
+#footer .h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.v-align {
+  vertical-align: middle;
+}
+
+
+/** ------------------------------------------------ END FOOTER ------------------------------------------------------------------**/
 
 /** ------------------------------------------------ TRADUZIONI PAGE ------------------------------------------------------------------**/
 #carouselTraduzioniIndicators {
@@ -163,13 +197,20 @@ body {
     background-color: black;
 }
 
+.helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
 .copertina {
   max-height: 50vmax;
+  vertical-align: middle;
 }
 
 .bookdata {
-  padding-top: 80px;
-  padding-left: 50px;
+  padding-top: 8vmin;
+  padding-left: 5vh;
   font-size: 1.5em;
   text-align: left;
   font-family: 'Amatic SC';
@@ -219,6 +260,8 @@ body {
 .citazione{
   margin-left: 22vmin;
   margin-right: 22vmin;
+  margin-bottom: 10vmin;
+  margin-top: 5vmin;
 }
 
 .cit-testo{
