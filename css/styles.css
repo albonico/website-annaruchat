@@ -182,6 +182,21 @@ a:hover {
   text-align: center;
 }
 
+.carousel-link:hover {
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 100%;
+}
+
+.carousel-link {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 100%;
+}
+
 .carousel-item .row {
   max-width: 80%;
 }
@@ -204,11 +219,12 @@ a:hover {
 }
 
 .copertina {
-  max-height: 50vmax;
+  max-height: 45vmax;
   vertical-align: middle;
 }
 
-.bookdata {
+
+div .bookdata {
   padding-top: 8vmin;
   padding-left: 5vh;
   font-size: 1.5em;
@@ -226,6 +242,10 @@ a:hover {
 .testo {
   font-family: 'Oxygen Mono', sans-serif;
   font-size: 0.6em;
+}
+
+.poesia {
+	max-width: 80%;
 }
 
 .ISBN {
@@ -265,6 +285,7 @@ a[target="_blank"]:visited {
   margin-top: 10vh;
 }
 
+
 /** ------------------------------------------------ END TRADUZIONI ------------------------------------------------------------------- **/
 
 
@@ -290,6 +311,31 @@ a[target="_blank"]:visited {
   text-align: right;
   font-weight: 400;
   font-size: 0.9em;
+}
+
+.copertine-trad {
+	max-width: 30%;
+	padding: 5vh;
+}
+
+.separator {
+	border-top: 1px solid black;
+}
+
+.lingue {
+  font-family: 'Amatic SC';
+  font-size:1.5em;
+}
+
+div .prizes {
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#premio-ch {
+	font-size: 1.5em;
 }
 
 /** ------------------------------------------------ END LIBRI ------------------------------------------------------------------- **/
