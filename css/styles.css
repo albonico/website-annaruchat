@@ -10,16 +10,54 @@ body {
   height: 100%;
 }
 
-/** HEADER **/
+.maiuscolo {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;  
+  margin-bottom: 5vh;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+/** ----------------------------------------------- HEADER ----------------------------------------------------------**/
 #header-nav {
   background-color: white;
   border-radius: 0;
   align-content: center;
+  border-bottom: 1px solid black;
 }
 
 .bottomline {
   border-bottom: 1px solid black;
 }
+
+.dropbtn {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  background: white;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid black;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
 
 .navbar-brand {
   padding-top: 20px;
@@ -49,6 +87,12 @@ body {
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+  font-weight: 300;
+}
+
+.navbar a:hover, .navbar a:focus {
+  text-decoration: none;
+  font-weight: 300;
 }
 
 .navbar-toggler {
@@ -70,15 +114,15 @@ body {
 }
 
 
-/** END HEADER **/
+/** ------------------------------------------------ END HEADER ----------------------------------------------------------------**/
 
 
-/** BIO PAGE **/
+/** ------------------------------------------------ BIO PAGE ------------------------------------------------------------------**/
 .maintext {
  color: black;
 }
 
-#bio h2 {
+.maindiv h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   color: black;
@@ -102,11 +146,204 @@ body {
 #portrait figcaption {
   text-align: left;
 }
-/** END BIO **/
+/** ------------------------------------------------ END BIO ------------------------------------------------------------------- **/
+
+/** ------------------------------------------------ FOOTER ------------------------------------------------------------------**/
+#footer {
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-weight: 300;
+}
+
+#footer .h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.v-align {
+  vertical-align: middle;
+}
+
+
+/** ------------------------------------------------ END FOOTER ------------------------------------------------------------------**/
+
+/** ------------------------------------------------ TRADUZIONI PAGE ------------------------------------------------------------------**/
+#carouselTraduzioniIndicators {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.prevnext {
+  color: black;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-link:hover {
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 100%;
+}
+
+.carousel-link {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 100%;
+}
+
+.carousel-item .row {
+  max-width: 80%;
+}
+
+.carousel-indicators {
+  margin-bottom: -5vh;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.copertina {
+  max-height: 45vmax;
+  vertical-align: middle;
+}
+
+
+div .bookdata {
+  padding-top: 8vmin;
+  padding-left: 5vh;
+  font-size: 1.5em;
+  text-align: left;
+  font-family: 'Amatic SC';
+  font-weight: 300;
+}
+
+.titolo {
+  text-transform: none;
+  font-size:1.2em;
+  text-transform: uppercase;
+}
+
+.testo {
+  font-family: 'Oxygen Mono', sans-serif;
+  font-size: 0.6em;
+}
+
+.poesia {
+	max-width: 80%;
+}
+
+.ISBN {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.edizione {
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-bottom: 6vh;
+}
+
+.premio {
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+.link-sito {
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: right;
+  text-decoration: underline;
+}
+
+a[target="_blank"]::after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
+}
+
+a[target="_blank"]:visited {
+  outline-color: white;
+}
+
+
+.lista-traduzioni {
+  margin-top: 10vh;
+}
+
+
+/** ------------------------------------------------ END TRADUZIONI ------------------------------------------------------------------- **/
+
+
+/** ------------------------------------------------ LIBRI PAGE ------------------------------------------------------------------**/
+#carouselLibriIndicators {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.citazione{
+  margin-left: 22vmin;
+  margin-right: 22vmin;
+  margin-bottom: 10vmin;
+  margin-top: 5vmin;
+}
+
+.cit-testo{
+  font-style: italic;
+  text-align: center;
+}
+
+.cit-autore{
+  text-align: right;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.copertine-trad {
+	max-width: 30%;
+	padding: 5vh;
+}
+
+.separator {
+	border-top: 1px solid black;
+}
+
+.lingue {
+  font-family: 'Amatic SC';
+  font-size:1.5em;
+}
+
+div .prizes {
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#premio-ch {
+	font-size: 1.5em;
+}
+
+/** ------------------------------------------------ END LIBRI ------------------------------------------------------------------- **/
 
 
 
-/** MEDIA QUERIES **/
+
+/** ---------------------------------------------- MEDIA QUERIES --------------------------------------------------------------- **/
 /** ------------------------- Devices w. screen smaller than 768px ---------------------------- **/
 @media (max-device-width: 767px) {
 .main-image {
@@ -140,9 +377,7 @@ body {
 }
 
 
-
-
-/** END MEDIA QUERIES **/
+/** ------------------------------------------- END MEDIA QUERIES ---------------------------------------------------------------- **/
 
 
 
