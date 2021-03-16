@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ./bib2htmlc1f1e8.aux
+The style file: plain.bst
+Database file #1: lista-traduzioni.bib
+Repeated entry---line 807 of file lista-traduzioni.bib
+ : @book{Controvento
+ :                  ,
+I'm skipping whatever remains of this entry
+You've used 60 entries,
+            2118 wiz_defined-function locations,
+            766 strings with 7289 characters,
+and the built_in function-call counts, 12922 in all, are:
+= -- 1140
+> -- 420
+< -- 0
++ -- 180
+- -- 120
+* -- 482
+:= -- 2291
+add.period$ -- 180
+call.type$ -- 60
+change.case$ -- 180
+chr.to.int$ -- 0
+cite$ -- 60
+duplicate$ -- 720
+empty$ -- 1321
+format.name$ -- 120
+if$ -- 2761
+int.to.chr$ -- 0
+int.to.str$ -- 60
+missing$ -- 120
+newline$ -- 303
+num.names$ -- 120
+pop$ -- 480
+preamble$ -- 1
+purify$ -- 180
+quote$ -- 0
+skip$ -- 359
+stack$ -- 0
+substring$ -- 300
+swap$ -- 60
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 120
+warning$ -- 0
+while$ -- 120
+width$ -- 62
+write$ -- 602
+(There was 1 error message)
