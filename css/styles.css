@@ -76,7 +76,7 @@ a:hover {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 6px 8px;
   text-decoration: none;
   display: block;
 }
@@ -256,6 +256,10 @@ a:hover {
   vertical-align: middle;
 }
 
+#footer a {
+  text-decoration: underline;
+} 
+
 
 /** ------------------------------------------------ END FOOTER ------------------------------------------------------------------**/
 
@@ -374,6 +378,12 @@ a[target="_blank"]:visited {
 
 .lista-traduzioni {
   margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.lista-trad {
+  margin-left: 40vmin;
+  margin-right: 40vmin;
 }
 
 
@@ -439,7 +449,9 @@ div .prizes {
 @media (max-device-width: 767px) {
 .main-image {
 /* The image used */
-  background-image: url("../images/Grigna.jpg");
+  background-image: url("../images/background.jpeg");
+
+  margin-top: 8vh;
 
   /* Full height */
   height: 100%;
@@ -447,8 +459,9 @@ div .prizes {
   /* Center and scale the image nicely */
   background-repeat: no-repeat;
   background-size: 100% auto;
-  vertical-align: baseline;
-}
+  background-size: contain;
+/*  vertical-align: baseline;
+*/}
 
 #header-ind .dropdown-content {
   display: block;
@@ -479,15 +492,16 @@ div .prizes {
 @media (min-device-width: 768px) {
 .main-image {
 /* The image used */
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background.jpeg");
 
   /* Full height */
-  width: 100%;
+/*  width: 100%;*/
   min-height: 100%;
 
   /* Center and scale the image nicely */
+  background-position: center; 
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: contain;
 }
 }
 
