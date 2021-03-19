@@ -8,6 +8,7 @@ body {
   background-color: white;
   font-family: 'Oxygen Mono', sans-serif;
   height: 100%;
+  line-height:200%;
 }
 
 .maiuscolo {
@@ -204,6 +205,10 @@ a:hover {
   color: black;
 }
 
+.bottomline .nav-link {
+  margin-bottom: 8px;
+}
+
 
 /** ------------------------------------------------ END HEADER ----------------------------------------------------------------**/
 
@@ -211,6 +216,13 @@ a:hover {
 /** ------------------------------------------------ BIO PAGE ------------------------------------------------------------------**/
 .maintext {
  color: black;
+}
+
+.side-col {
+  background-image: url("../images/riccio.jpeg");
+  background-position: right bottom; 
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .maindiv h2 {
@@ -382,8 +394,8 @@ a[target="_blank"]:visited {
 }
 
 .lista-trad {
-  margin-left: 40vmin;
-  margin-right: 40vmin;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 
@@ -416,7 +428,7 @@ a[target="_blank"]:visited {
 
 .copertine-trad {
 	max-width: 30%;
-	padding: 5vh;
+	padding: 3vw;
 }
 
 .separator {
@@ -441,6 +453,41 @@ div .prizes {
 
 /** ------------------------------------------------ END LIBRI ------------------------------------------------------------------- **/
 
+/** ------------------------------------------------ CONTATTI PAGE ------------------------------------------------------------------- **/
+
+.contacts {
+  background-image: url("../images/te.jpeg");
+  min-height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: right; 
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  text-align: left;
+}
+
+.nome {
+  font-family: 'Amatic SC';
+  font-size:1.5em;
+}
+
+.contacts div {
+  text-align: left;
+}
+
+.contatto {
+  margin-bottom: 5vw;
+  font-family: 'Oswald', serif;
+}
+
+.indent {
+  padding-left: 2vw;
+}
+
+
+/** ------------------------------------------------ END CONTATTI ------------------------------------------------------------------- **/
+
 
 
 
@@ -450,6 +497,7 @@ div .prizes {
 .main-image {
 /* The image used */
   background-image: url("../images/background.jpeg");
+  background-position: center; 
 
   margin-top: 8vh;
 
@@ -463,13 +511,24 @@ div .prizes {
 /*  vertical-align: baseline;
 */}
 
+#header .dropdown:hover .lista-libri {
+  display: none;
+}
+
 #header-ind .dropdown-content {
   display: block;
 }
 
+.citazione {
+  margin-left: 15vmin;
+  margin-right: 15vmin;
+}
+
 
 
 }
+
+
 
 /** ------------------------- Devices that cannot hover ---------------------------- **/
 @media (hover: none) { 
@@ -503,6 +562,10 @@ div .prizes {
   background-repeat: no-repeat;
   background-size: contain;
 }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
 }
 
 
