@@ -440,6 +440,8 @@ a[target="_blank"]:visited {
   font-size:1.5em;
 }
 
+.tab { text-indent:10% }
+
 div .prizes {
   text-align: center;
   font-family: 'Amatic SC';
